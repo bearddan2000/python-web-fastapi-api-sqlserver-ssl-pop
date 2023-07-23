@@ -1,0 +1,33 @@
+[2023-02-27 10:01:11 INFO]: install::setup-logging ended
+================
+[2023-02-27 10:01:11 INFO]: install::start-up started
+[2023-02-27 10:01:11 INFO]: install::start-up starting services
+[2023-02-27 10:01:11 INFO]: install::decompress started
+[2023-02-27 10:01:11 INFO]: install::decompress changing directory to db
+[2023-02-27 10:01:11 INFO]: install::decompress decompress db/data_dump.tar.gz 
+[2023-02-27 10:01:11 INFO]: install::decompress removing data_dump.tar.gz 
+[2023-02-27 10:01:11 INFO]: install::decompress changing directory back
+[2023-02-27 10:01:11 INFO]: install::decompress ended
+================
+[2023-02-27 10:01:11 INFO]: install::decompress ended
+================
+[2023-02-27 10:05:16 INFO]: install::root-check started
+[2023-02-27 10:05:16 INFO]: install::root-check ended
+================
+[2023-02-27 10:05:16 INFO]: install::docker-check started
+[2023-02-27 10:05:16 INFO]: install::docker-check ended
+================
+[2023-02-27 10:05:16 INFO]: install::docker-compose-check started
+[2023-02-27 10:05:16 INFO]: install::docker-compose-check ended
+================
+[2023-02-27 10:05:16 INFO]: install::tear-down started
+[2023-02-27 10:05:16 INFO]: install::compress started
+[2023-02-27 10:05:16 INFO]: install::compress changing directory to db
+[2023-02-27 10:05:16 INFO]: install::compress compressing db/data_dump 
+[2023-02-27 10:05:16 INFO]: install::compress removing data_dump 
+[2023-02-27 10:05:16 INFO]: install::compress changing directory back
+[2023-02-27 10:05:16 INFO]: install::compress ended
+================
+[2023-02-27 10:05:16 INFO]: install::compress starting services
+[2023-02-27 10:05:16 INFO]: install::compress ended
+================

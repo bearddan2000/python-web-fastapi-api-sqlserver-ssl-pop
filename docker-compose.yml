@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  db:
+    build: db
+
+  py-srv:
+    build: py-srv
+    command: python app.py
+    ports:
+      - "80:8000"
